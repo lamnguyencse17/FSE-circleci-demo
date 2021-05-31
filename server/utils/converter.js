@@ -6,7 +6,7 @@ function convertFToK(temperature) {
 }
 
 function convertCToK(temperature) {
-  if (validate.validateCtoK(temperature))         return temperature + 273.15;
+  if (validate.validateCtoK(temperature))              return temperature + 273.15;
   return false;
 }
 
